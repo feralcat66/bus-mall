@@ -11,31 +11,31 @@
 
 <body>
     <header>
-        <h1>Congatulations!</h1>
+        <h1>Congratulations!</h1>
             <h4>You have been selected for the BusMall focus group</h4>
         <h3>Instructions:</h3> 
-            <h6>You will be given a choice between three products several times. Select the product you would be most likely to purchase, then hit the submit button.</h6>   
+            <h5>You will be given a choice between three products several times. Select the product you would be most likely to purchase, then hit the submit button. After you have voted 25 times you will be redirected to a results page that shows how many votes each item recieved.</h5>   
     </header>
 <main>
     <section>
-        <div>
-            <h2 id="product-name"></h2>
+        <form>
             <label>
-                <input type="radio" name="product" value="">
-                <img src="">
+                <span id="product1span"></span>
+                <input id="product1" type="radio" name="product" value="">
+                <img id="oneImage" src="">
             </label>
-            <h2 id="product2-name"></h2>
             <label>
-                <input type="radio" name="product" value="">
-                <img src="">
+                <span id="product2span"></span>
+                <input id="product2" type="radio" name="product" value="">
+                <img id="twoImage" src="">
             </label>
-            <h2 id="product3-name"></h2>
             <label>
-                <input type="radio" name="product" value="">
-                <img src="">
+                <span id="product3span"></span>
+                <input id="product3" type="radio" name="product" value="">
+                <img id="threeImage" src="">
             </label>
-        </div>
-        <button id="submit-button">Submit</button>
+            <button id="submit-button">Submit</button>
+        </form>
     </section>
 </main>
 

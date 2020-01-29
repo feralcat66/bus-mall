@@ -1,0 +1,28 @@
+#oneImage, #twoImage, #threeImage {
+
+    border: solid black 1px;
+    height: 150px;
+    align-items: center;
+}
+
+
+header {
+    border: solid black 2px;
+    background-color: darkcyan;
+    padding: 10px;
+}
+
+h1, h3 {
+    color: white
+}
+
+h4, h5 {
+    color: yellow;
+}
+body {
+    background-color: gray;
+}
+
+button {
+    background-color: darkcyan;
+}
